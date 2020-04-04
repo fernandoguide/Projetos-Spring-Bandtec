@@ -2,92 +2,1021 @@
 	"version": 1,
 	"collections": [
 		{
-			"id": "c87eb045-bee1-4047-93e5-924242598ff8",
-			"name": "API",
-			"description": null,
+			"id": "629623c2-4a3e-417c-8821-cbc995678d83",
+			"name": "Aula Yoshi",
+			"description": "",
 			"auth": null,
 			"events": null,
 			"variables": [],
 			"order": [],
 			"folders_order": [
-				"8d5e6bae-5339-41a9-a0af-7bee5d590f00",
-				"846e13a4-c7b1-498e-8e02-e33bb82a31c1",
-				"0e7ff556-420c-4b3a-a41a-0003c10b2b33",
-				"eef941e3-dcd6-4ece-8123-e5f4d84385f3"
+				"79128e10-36d3-47d6-beb7-33c06acb9414",
+				"44bfa441-c33c-4ea5-9ec1-2a6cd6de09ae",
+				"d7964e5c-7e11-4321-ab2c-6d3a2e10e7d4",
+				"c2aaa6d2-705c-48af-9841-36c420b4232d",
+				"a625dd47-b4d9-40b3-a7dc-111c2f531bec",
+				"74786c14-3d17-48bd-b76b-a1e0109183d4",
+				"a73e134e-17b2-4579-8fd6-faddf0b18eae"
 			],
 			"protocolProfileBehavior": {},
 			"folders": [
 				{
-					"id": "eef941e3-dcd6-4ece-8123-e5f4d84385f3",
-					"name": "API-EXTERNA-CEP",
+					"id": "74786c14-3d17-48bd-b76b-a1e0109183d4",
+					"name": "Animais",
+					"description": "",
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "adfd88e9-c321-4f21-b2d3-b194e3f7c30e",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "be8b8d68-44df-4023-8e2e-b6b21b05c07f",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"folder": null,
+					"order": [
+						"ac4d269a-58ca-4c5d-a605-c91512550341",
+						"faebc03e-8e3a-40fa-93e4-ecc42390a22a",
+						"cae80c90-1c60-4822-b0b7-2524005707d8"
+					],
+					"folders_order": [],
+					"protocolProfileBehavior": {},
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"folderId": "74786c14-3d17-48bd-b76b-a1e0109183d4"
+				},
+				{
+					"id": "79128e10-36d3-47d6-beb7-33c06acb9414",
+					"name": "CarrinhoCompras",
 					"description": "",
 					"auth": null,
 					"events": null,
-					"collection": "c87eb045-bee1-4047-93e5-924242598ff8",
+					"collection": "629623c2-4a3e-417c-8821-cbc995678d83",
 					"folder": null,
 					"order": [
-						"bad8ecdc-fe1d-4952-a801-d773b7b1d4df"
+						"933a7a64-ad98-4fdb-a65d-5eae2b81e400",
+						"d97f811d-7a16-4c29-a186-32297320ecfe",
+						"320c2763-711e-43df-9e9e-31b606013590"
 					],
 					"folders_order": [],
 					"protocolProfileBehavior": {},
-					"collectionId": "c87eb045-bee1-4047-93e5-924242598ff8",
-					"folderId": "eef941e3-dcd6-4ece-8123-e5f4d84385f3"
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"folderId": "79128e10-36d3-47d6-beb7-33c06acb9414"
 				},
 				{
-					"id": "0e7ff556-420c-4b3a-a41a-0003c10b2b33",
-					"name": "Auth",
-					"description": null,
+					"id": "c2aaa6d2-705c-48af-9841-36c420b4232d",
+					"name": "Eleicao",
+					"description": "",
 					"auth": null,
 					"events": null,
-					"collection": "c87eb045-bee1-4047-93e5-924242598ff8",
+					"collection": "629623c2-4a3e-417c-8821-cbc995678d83",
 					"folder": null,
 					"order": [
-						"d648467b-7325-4c97-bd89-502c619fed19"
+						"3be7f812-c3db-41aa-8a24-ece8e3aacb26",
+						"e9473537-614f-4a22-b87f-cb186ab16a6f",
+						"8c885f43-d83c-460e-b824-1b16bbcda42c"
 					],
 					"folders_order": [],
 					"protocolProfileBehavior": {},
-					"collectionId": "c87eb045-bee1-4047-93e5-924242598ff8",
-					"folderId": "0e7ff556-420c-4b3a-a41a-0003c10b2b33"
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"folderId": "c2aaa6d2-705c-48af-9841-36c420b4232d"
 				},
 				{
-					"id": "846e13a4-c7b1-498e-8e02-e33bb82a31c1",
-					"name": "Categorias",
-					"description": null,
+					"id": "a625dd47-b4d9-40b3-a7dc-111c2f531bec",
+					"name": "Eleicao-Questao06",
+					"description": "",
 					"auth": null,
 					"events": null,
-					"collection": "c87eb045-bee1-4047-93e5-924242598ff8",
+					"collection": "629623c2-4a3e-417c-8821-cbc995678d83",
 					"folder": null,
 					"order": [
-						"82e3bc97-d012-4d1a-8b48-fbe537dbd6cb"
+						"625b70e9-a6da-4964-9d2e-46023cb9111d",
+						"7131da61-efc8-4dbd-bd89-cfc77553ab18",
+						"83356899-df98-42e8-8934-dfaf550630c3",
+						"935fc18e-80ea-4d29-9525-2ca1ddfbdede",
+						"29df4594-cd48-4450-a857-a2158fd5a731",
+						"df539334-24f0-4c6a-bcc0-aa31ea9e9e85"
 					],
 					"folders_order": [],
 					"protocolProfileBehavior": {},
-					"collectionId": "c87eb045-bee1-4047-93e5-924242598ff8",
-					"folderId": "846e13a4-c7b1-498e-8e02-e33bb82a31c1"
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"folderId": "a625dd47-b4d9-40b3-a7dc-111c2f531bec"
 				},
 				{
-					"id": "8d5e6bae-5339-41a9-a0af-7bee5d590f00",
-					"name": "Clientes",
-					"description": null,
+					"id": "44bfa441-c33c-4ea5-9ec1-2a6cd6de09ae",
+					"name": "Salas",
+					"description": "",
 					"auth": null,
 					"events": null,
-					"collection": "c87eb045-bee1-4047-93e5-924242598ff8",
+					"collection": "629623c2-4a3e-417c-8821-cbc995678d83",
 					"folder": null,
 					"order": [
-						"152767b3-fcd9-4886-8fa7-b2a096b2ca89",
-						"2bd56b32-0bd5-4763-88e6-b48db76b6abb"
+						"5d6641cb-e82d-4a57-9604-269ade85ff2b",
+						"320f56f0-c39b-4d25-879c-fae186791fca",
+						"1cd13e9f-2a74-43f8-b65a-de3bdb6958cd",
+						"5befc760-9bdb-44a5-a9de-3f22b3373a79"
 					],
 					"folders_order": [],
 					"protocolProfileBehavior": {},
-					"collectionId": "c87eb045-bee1-4047-93e5-924242598ff8",
-					"folderId": "8d5e6bae-5339-41a9-a0af-7bee5d590f00"
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"folderId": "44bfa441-c33c-4ea5-9ec1-2a6cd6de09ae"
+				},
+				{
+					"id": "a73e134e-17b2-4579-8fd6-faddf0b18eae",
+					"name": "Virus",
+					"description": "",
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "adfd88e9-c321-4f21-b2d3-b194e3f7c30e",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "be8b8d68-44df-4023-8e2e-b6b21b05c07f",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"folder": null,
+					"order": [
+						"d4df2fbd-fa1a-4d16-b3be-06147b0594e0",
+						"dfd598e6-9ec0-4243-9311-c387f6b9ffb2",
+						"9d54d0a7-3f32-4e21-80c7-6c8ab0ff0304",
+						"40fa1913-e0ea-4244-9fd9-9290b1ebf3cf"
+					],
+					"folders_order": [],
+					"protocolProfileBehavior": {},
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"folderId": "a73e134e-17b2-4579-8fd6-faddf0b18eae"
+				},
+				{
+					"id": "d7964e5c-7e11-4321-ab2c-6d3a2e10e7d4",
+					"name": "controle-sala",
+					"description": "",
+					"auth": null,
+					"events": null,
+					"collection": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"folder": null,
+					"order": [
+						"7c163586-f18f-4e48-834f-dba8f1774808",
+						"40d84b21-dc07-4a19-b020-4b2ce1d78ee6"
+					],
+					"folders_order": [],
+					"protocolProfileBehavior": {},
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"folderId": "d7964e5c-7e11-4321-ab2c-6d3a2e10e7d4"
 				}
 			],
 			"requests": [
 				{
-					"id": "152767b3-fcd9-4886-8fa7-b2a096b2ca89",
-					"name": "findAll",
-					"url": "{{baseUrl}}/clientes/1",
+					"id": "1cd13e9f-2a74-43f8-b65a-de3bdb6958cd",
+					"name": "cadastrarSala",
+					"url": "http://localhost:8080/sala/cadastrar/2B/50",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"type": "text"
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "nome",
+							"value": "aaaa",
+							"enabled": false
+						},
+						{
+							"key": "capacidade",
+							"value": "123",
+							"enabled": false
+						}
+					],
+					"auth": null,
+					"events": null,
+					"folder": "44bfa441-c33c-4ea5-9ec1-2a6cd6de09ae",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "Content-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "29df4594-cd48-4450-a857-a2158fd5a731",
+					"name": "registrarEleitores",
+					"url": "http://localhost:8080/eleicao-q6/registrar-eleitor/30",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "a625dd47-b4d9-40b3-a7dc-111c2f531bec",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "320c2763-711e-43df-9e9e-31b606013590",
+					"name": "listacarrinho",
+					"url": "http://localhost:8080/carrinho",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "79128e10-36d3-47d6-beb7-33c06acb9414",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "320f56f0-c39b-4d25-879c-fae186791fca",
+					"name": "excluirSala",
+					"url": "http://localhost:8080/sala/excluir",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "44bfa441-c33c-4ea5-9ec1-2a6cd6de09ae",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "3be7f812-c3db-41aa-8a24-ece8e3aacb26",
+					"name": "resultadoEleicao",
+					"url": "http://localhost:8080/eleicao/resultado",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "c2aaa6d2-705c-48af-9841-36c420b4232d",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "40d84b21-dc07-4a19-b020-4b2ce1d78ee6",
+					"name": "cadastrarSalaControle",
+					"url": "http://localhost:8080/controle-salas/criar/2B/30",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "d7964e5c-7e11-4321-ab2c-6d3a2e10e7d4",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "40fa1913-e0ea-4244-9fd9-9290b1ebf3cf",
+					"name": "deleteVirus",
+					"url": "http://localhost:8080/virus/0",
+					"description": null,
+					"data": null,
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": null,
+					"headerData": [],
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "a73e134e-17b2-4579-8fd6-faddf0b18eae",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "5befc760-9bdb-44a5-a9de-3f22b3373a79",
+					"name": "atualizarSala",
+					"url": "http://localhost:8080/sala/cadastrar/2B/60",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"type": "text"
+						}
+					],
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "nome",
+							"value": "aaaa",
+							"enabled": false
+						},
+						{
+							"key": "capacidade",
+							"value": "123",
+							"enabled": false
+						}
+					],
+					"auth": null,
+					"events": null,
+					"folder": "44bfa441-c33c-4ea5-9ec1-2a6cd6de09ae",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "Content-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "5d6641cb-e82d-4a57-9604-269ade85ff2b",
+					"name": "Salas",
+					"url": "http://localhost:8080/sala",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "44bfa441-c33c-4ea5-9ec1-2a6cd6de09ae",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "625b70e9-a6da-4964-9d2e-46023cb9111d",
+					"name": "resultadoEleicao",
+					"url": "http://localhost:8080/eleicao-q6/resultado",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "a625dd47-b4d9-40b3-a7dc-111c2f531bec",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "7131da61-efc8-4dbd-bd89-cfc77553ab18",
+					"name": "deleteVotos",
+					"url": "http://localhost:8080/eleicao-q6",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "a625dd47-b4d9-40b3-a7dc-111c2f531bec",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "7c163586-f18f-4e48-834f-dba8f1774808",
+					"name": "buscar",
+					"url": "http://localhost:8080/controle-salas",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "d7964e5c-7e11-4321-ab2c-6d3a2e10e7d4",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "83356899-df98-42e8-8934-dfaf550630c3",
+					"name": "alterarCandidato1",
+					"url": "http://localhost:8080/eleicao-q6/candidato1/fernando",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "a625dd47-b4d9-40b3-a7dc-111c2f531bec",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "8c885f43-d83c-460e-b824-1b16bbcda42c",
+					"name": "registrarVotos",
+					"url": "http://localhost:8080/eleicao/votar/1",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "c2aaa6d2-705c-48af-9841-36c420b4232d",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "933a7a64-ad98-4fdb-a65d-5eae2b81e400",
+					"name": "carrinhoTotal",
+					"url": "http://localhost:8080/carrinho/total",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "79128e10-36d3-47d6-beb7-33c06acb9414",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "935fc18e-80ea-4d29-9525-2ca1ddfbdede",
+					"name": "alterarCandidato2",
+					"url": "http://localhost:8080/eleicao-q6/candidato2/vic",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "a625dd47-b4d9-40b3-a7dc-111c2f531bec",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "9d54d0a7-3f32-4e21-80c7-6c8ab0ff0304",
+					"name": "postVirus",
+					"url": "http://localhost:8080/virus",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "a73e134e-17b2-4579-8fd6-faddf0b18eae",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"rawModeData": "{\r\n   \"nomeCientifico\": \"Covid13\",\r\n   \"nomePopular\": \"Coronavírus\",\r\n   \"taxaMortalidade\": 1.6\r\n}",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "ac4d269a-58ca-4c5d-a605-c91512550341",
+					"name": "getAnimais",
+					"url": "http://localhost:8080/animais",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "74786c14-3d17-48bd-b76b-a1e0109183d4",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "cae80c90-1c60-4822-b0b7-2524005707d8",
+					"name": "deleteAnimal ",
+					"url": "http://localhost:8080/animais",
+					"description": null,
+					"data": null,
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": null,
+					"headerData": [],
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "74786c14-3d17-48bd-b76b-a1e0109183d4",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "d4df2fbd-fa1a-4d16-b3be-06147b0594e0",
+					"name": "getVirus",
+					"url": "http://localhost:8080/virus",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "a73e134e-17b2-4579-8fd6-faddf0b18eae",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "d97f811d-7a16-4c29-a186-32297320ecfe",
+					"name": "itensCarrinho",
+					"url": "http://localhost:8080/carrinho/comprar/abc/2/3",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "79128e10-36d3-47d6-beb7-33c06acb9414",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "df539334-24f0-4c6a-bcc0-aa31ea9e9e85",
+					"name": "registrarVotos",
+					"url": "http://localhost:8080/eleicao-q6/votar/2",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "a625dd47-b4d9-40b3-a7dc-111c2f531bec",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "dfd598e6-9ec0-4243-9311-c387f6b9ffb2",
+					"name": "getVirusById",
+					"url": "http://localhost:8080/virus/5",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "a73e134e-17b2-4579-8fd6-faddf0b18eae",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "e9473537-614f-4a22-b87f-cb186ab16a6f",
+					"name": "registrarEleitor",
+					"url": "http://localhost:8080/eleicao/registrar-eleitor/20",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "c2aaa6d2-705c-48af-9841-36c420b4232d",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "faebc03e-8e3a-40fa-93e4-ecc42390a22a",
+					"name": "postAnimal",
+					"url": "http://localhost:8080/animais",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "74786c14-3d17-48bd-b76b-a1e0109183d4",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "629623c2-4a3e-417c-8821-cbc995678d83",
+					"rawModeData": "{\n\t\"especie\":\"canino\",\n\t\"nome\":\"cao\",\n\t\"extinto\":false\n}",
+					"headers": "",
+					"pathVariables": {}
+				}
+			]
+		},
+		{
+			"id": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+			"name": "ELETRONIC-STORE GCP",
+			"description": "",
+			"auth": null,
+			"events": null,
+			"variables": [],
+			"order": [],
+			"folders_order": [
+				"3466a360-30cd-4c1b-8e07-55310f435828",
+				"1ee894ea-8d11-43fd-9652-b122872d1f29",
+				"43ec1c9a-e037-4d6b-9902-71968c34f2f7",
+				"32f06c29-f213-46ab-832a-97e3faf703f0",
+				"bc040d91-19ec-47de-bfcd-bbd2957bbff9"
+			],
+			"protocolProfileBehavior": {},
+			"folders": [
+				{
+					"id": "bc040d91-19ec-47de-bfcd-bbd2957bbff9",
+					"name": "API-EXTERNA-CEP ",
+					"description": "",
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "1800ac5c-21d2-49e1-95ec-addc16bb0a86",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "de72b484-3afc-4136-9e2f-a0bb1272a6ee",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"folder": null,
+					"order": [
+						"066d3db7-853a-44de-a1d2-b3da8d6ad37c",
+						"6420fced-ad54-422d-912c-914b986fb5c0"
+					],
+					"folders_order": [],
+					"protocolProfileBehavior": {},
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"folderId": "bc040d91-19ec-47de-bfcd-bbd2957bbff9"
+				},
+				{
+					"id": "43ec1c9a-e037-4d6b-9902-71968c34f2f7",
+					"name": "Auth GCP",
+					"description": null,
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "ca2fa858-a5ba-4c54-b77d-2b062dd2cc90",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "d1d0045d-b121-4c9c-9db1-0d24728a1616",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"folder": null,
+					"order": [
+						"106d6324-5a55-439d-bee9-577a90337b6f",
+						"a5046a3f-32c6-41d2-9dcd-ae4e6608fc95"
+					],
+					"folders_order": [],
+					"protocolProfileBehavior": {},
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"folderId": "43ec1c9a-e037-4d6b-9902-71968c34f2f7"
+				},
+				{
+					"id": "1ee894ea-8d11-43fd-9652-b122872d1f29",
+					"name": "Categorias GCP",
+					"description": null,
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "fd6fee2f-e910-48d2-9179-d6295403f301",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "1fe2aea8-178d-497c-b81a-57e1ed886851",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"folder": null,
+					"order": [
+						"c64b1920-b4a4-47f1-a8f2-6d57a17787aa",
+						"b2f257ea-4cda-4ea8-b2f2-65b0d4c9d939",
+						"cb2c6da3-e8fb-44db-8490-93fe8a27641e",
+						"50e53d36-7367-4c11-b8c3-204f006a2fa1",
+						"1203ac25-a51b-43fe-9b57-9057e527c942"
+					],
+					"folders_order": [],
+					"protocolProfileBehavior": {},
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"folderId": "1ee894ea-8d11-43fd-9652-b122872d1f29"
+				},
+				{
+					"id": "3466a360-30cd-4c1b-8e07-55310f435828",
+					"name": "Clientes GCP",
+					"description": null,
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "f1d2896a-b975-460e-8e4f-32c7cc835f92",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "c4e9d8d5-f4fe-423f-bc8d-3b495ffaa49e",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"folder": null,
+					"order": [
+						"66004f5b-a75d-4908-b04c-42ef254b4604",
+						"1b65450b-c556-4e9a-a95b-9f6c6979ebab",
+						"91a6ca24-0f51-4e8f-b067-7eb8c08f22d4",
+						"d59922ba-8963-4f97-989a-ee738f8e6f63",
+						"7e5be3a8-a671-4c30-bd32-97439417ecd6",
+						"43d47f43-6fca-4429-a108-1b46d0e8e555",
+						"917dff53-4bbe-4062-9738-8818cf203470"
+					],
+					"folders_order": [],
+					"protocolProfileBehavior": {},
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"folderId": "3466a360-30cd-4c1b-8e07-55310f435828"
+				},
+				{
+					"id": "32f06c29-f213-46ab-832a-97e3faf703f0",
+					"name": "Produtos GCP",
+					"description": "",
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "1455c133-1d6e-4f64-89c2-44c5d5741264",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "4d8a88e7-6cbf-47bf-afec-3c4c73d53736",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"folder": null,
+					"order": [
+						"c3b90019-f466-490f-af65-b923f037343c",
+						"8171f0ee-d2e6-426b-818e-95f1cbcdfca1"
+					],
+					"folders_order": [],
+					"protocolProfileBehavior": {},
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"folderId": "32f06c29-f213-46ab-832a-97e3faf703f0"
+				}
+			],
+			"requests": [
+				{
+					"id": "066d3db7-853a-44de-a1d2-b3da8d6ad37c",
+					"name": "buscarCep",
+					"url": "http://api.postmon.com.br/v1/cep/02805050",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "bc040d91-19ec-47de-bfcd-bbd2957bbff9",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "106d6324-5a55-439d-bee9-577a90337b6f",
+					"name": "Login",
+					"url": "{{BASE_URL_GCP}}/login",
 					"description": null,
 					"data": [],
 					"dataOptions": {
@@ -98,50 +1027,59 @@
 					"dataMode": "raw",
 					"headerData": [
 						{
-							"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman.",
-							"key": "Authorization",
-							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODIyOTA3MzN9.ieG7TaIfiYAO1dYZaduITVpkzlHMWPLQ-tAPmm2_oNmgt2K8C5x_UdlXtnBnb2zv3gIusuEB-yY1HC3FCR4Xyg",
-							"type": "text"
-						},
-						{
 							"key": "Content-Type",
 							"name": "Content-Type",
-							"value": "application/json",
-							"type": "text"
+							"type": "text",
+							"value": "application/json"
 						}
 					],
-					"method": "GET",
+					"method": "POST",
 					"pathVariableData": [],
 					"queryParams": [],
-					"auth": {
-						"type": "bearer",
-						"bearer": [
-							{
-								"key": "token",
-								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODIyOTA4MDd9.rFmjL5wUhAQZBxMevFkiqiWG_STd9JijB-ImBJY2GEJ5qle9ALJHwLsSQMj1Lh0GURIMQ9iebfbxdm8lOpviJw",
-								"type": "string"
-							}
-						]
-					},
+					"auth": null,
 					"events": null,
-					"folder": "8d5e6bae-5339-41a9-a0af-7bee5d590f00",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"currentHelper": "bearerAuth",
-					"helperAttributes": {
-						"id": "bearer",
-						"token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODIyOTA4MDd9.rFmjL5wUhAQZBxMevFkiqiWG_STd9JijB-ImBJY2GEJ5qle9ALJHwLsSQMj1Lh0GURIMQ9iebfbxdm8lOpviJw"
-					},
-					"collectionId": "c87eb045-bee1-4047-93e5-924242598ff8",
-					"rawModeData": "",
-					"headers": "Authorization: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODIyOTA3MzN9.ieG7TaIfiYAO1dYZaduITVpkzlHMWPLQ-tAPmm2_oNmgt2K8C5x_UdlXtnBnb2zv3gIusuEB-yY1HC3FCR4Xyg\nContent-Type: application/json\n",
+					"folder": "43ec1c9a-e037-4d6b-9902-71968c34f2f7",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"rawModeData": "{\n\t\"email\":\"eletronicstore2020@gmail.com\",\n\t\"senha\":\"admin\"\n}\n\n\n\n\n",
+					"headers": "Content-Type: application/json\n",
 					"pathVariables": {}
 				},
 				{
-					"id": "2bd56b32-0bd5-4763-88e6-b48db76b6abb",
+					"id": "1203ac25-a51b-43fe-9b57-9057e527c942",
+					"name": "deleteCategoria",
+					"url": "{{BASE_URL_GCP}}/categorias/9",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "noauth"
+					},
+					"events": null,
+					"folder": "1ee894ea-8d11-43fd-9652-b122872d1f29",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "1b65450b-c556-4e9a-a95b-9f6c6979ebab",
 					"name": "findByID",
-					"url": "{{baseUrl}}/clientes/2",
+					"url": "{{BASE_URL_GCP}}/clientes/1",
 					"description": null,
 					"data": [],
 					"dataOptions": {
@@ -154,8 +1092,311 @@
 						{
 							"key": "Authorization",
 							"type": "text",
-							"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODIyOTA3MzN9.ieG7TaIfiYAO1dYZaduITVpkzlHMWPLQ-tAPmm2_oNmgt2K8C5x_UdlXtnBnb2zv3gIusuEB-yY1HC3FCR4Xyg",
-							"warning": "This is a duplicate header and will be overridden by the Authorization header generated by Postman."
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1OTM5NzMzfQ.ngwv5qvvVx-KwbqCcsKBQRO-bDV7uXXo-Dx088BrcEn97NTFD1ZgaYNvBi6NGkPIDYR6m-SRytJAU7WBYg-6ZA",
+							"enabled": true
+						},
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json",
+							"enabled": false
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "noauth"
+					},
+					"events": null,
+					"folder": "3466a360-30cd-4c1b-8e07-55310f435828",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"rawModeData": "",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1OTM5NzMzfQ.ngwv5qvvVx-KwbqCcsKBQRO-bDV7uXXo-Dx088BrcEn97NTFD1ZgaYNvBi6NGkPIDYR6m-SRytJAU7WBYg-6ZA\n//Content-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "43d47f43-6fca-4429-a108-1b46d0e8e555",
+					"name": "deleteCliente",
+					"url": "{{BASE_URL_GCP}}/clientes/1",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODUxNDB9.bsuMbfjiKbQglZtTf19-kKxL1QT-fs7E4SFBTrDd3w5yrEYb686pMbqvMwptGTEFYeSePcaXsI1T133S81eMlA",
+							"description": null,
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "3466a360-30cd-4c1b-8e07-55310f435828",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODUxNDB9.bsuMbfjiKbQglZtTf19-kKxL1QT-fs7E4SFBTrDd3w5yrEYb686pMbqvMwptGTEFYeSePcaXsI1T133S81eMlA\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "50e53d36-7367-4c11-b8c3-204f006a2fa1",
+					"name": "editCategoria",
+					"url": "{{BASE_URL_GCP}}/categorias/9",
+					"description": "",
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"type": "text"
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "1ee894ea-8d11-43fd-9652-b122872d1f29",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"rawModeData": "{\r\n        \"nome\": \"Futebol 2\"\r\n}",
+					"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "6420fced-ad54-422d-912c-914b986fb5c0",
+					"name": "imagens S3",
+					"url": "https://eletronic-store.s3.amazonaws.com/imagens/sou-foda-600x367.jpg",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": null,
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "bc040d91-19ec-47de-bfcd-bbd2957bbff9",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"pathVariables": {}
+				},
+				{
+					"id": "66004f5b-a75d-4908-b04c-42ef254b4604",
+					"name": "findAll",
+					"url": "{{BASE_URL_GCP}}/clientes",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1OTM5NzMzfQ.ngwv5qvvVx-KwbqCcsKBQRO-bDV7uXXo-Dx088BrcEn97NTFD1ZgaYNvBi6NGkPIDYR6m-SRytJAU7WBYg-6ZA",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "noauth"
+					},
+					"events": null,
+					"folder": "3466a360-30cd-4c1b-8e07-55310f435828",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"rawModeData": "",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1OTM5NzMzfQ.ngwv5qvvVx-KwbqCcsKBQRO-bDV7uXXo-Dx088BrcEn97NTFD1ZgaYNvBi6NGkPIDYR6m-SRytJAU7WBYg-6ZA\nContent-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "7e5be3a8-a671-4c30-bd32-97439417ecd6",
+					"name": "insertCliente",
+					"url": "{{BASE_URL_GCP}}/clientes",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"params": {},
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"description": null,
+							"enabled": true,
+							"key": "Authorization",
+							"type": "text",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODQyOTd9.1S-Tspy4BcEF1ncdXLxA3VPvuc8Rftl8d9leaBSUwsy-cpngv5mcr3rzV9K-dUDDRapx8vxJ64s9uCgXj0UWsg"
+						},
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"description": "",
+							"type": "text"
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "3466a360-30cd-4c1b-8e07-55310f435828",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"rawModeData": "{\n\t\"nome\" : \"João Vinicius\",\n\t\"email\" : \"joaov@gmail.com\",\n\t\"senha\":\"123\",\n\t\"cpfOuCnpj\" : \"39044683756\",\n\t\"tipo\" : 1,\n\t\"telefone1\" : \"997723874\",\n\t\"telefone2\" : \"32547698\",\n\t\"logradouro\" : \"Rua do jao\",\n\t\"numero\" : \"100\",\n\t\"complemento\" : \"Apto 302\",\n\t\"bairro\":\"Freguesia do O\",\n\t\"cep\" : \"38746928\",\n\t\"cidadeId\" : 2\n}",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODQyOTd9.1S-Tspy4BcEF1ncdXLxA3VPvuc8Rftl8d9leaBSUwsy-cpngv5mcr3rzV9K-dUDDRapx8vxJ64s9uCgXj0UWsg\nContent-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "8171f0ee-d2e6-426b-818e-95f1cbcdfca1",
+					"name": "findPage",
+					"url": "{{BASE_URL_GCP}}/produtos?nome=Computador&categoria=Informática&page=1",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "nome",
+							"value": "Computador",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "categoria",
+							"value": "Informática",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
+					"auth": null,
+					"events": null,
+					"folder": "32f06c29-f213-46ab-832a-97e3faf703f0",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "917dff53-4bbe-4062-9738-8818cf203470",
+					"name": "editCliente",
+					"url": "{{BASE_URL_GCP}}/clientes/3",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODUxNDB9.bsuMbfjiKbQglZtTf19-kKxL1QT-fs7E4SFBTrDd3w5yrEYb686pMbqvMwptGTEFYeSePcaXsI1T133S81eMlA",
+							"description": null,
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"description": null,
+							"type": "text"
+						}
+					],
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "3466a360-30cd-4c1b-8e07-55310f435828",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"rawModeData": "{\n\t\"nome\" : \"João \",\n\t\"email\" : \"joaov@gmail.com\",\n\t\"telefone1\" : \"997723874\",\n\t\"telefone2\" : \"32547698\",\n\t\"logradouro\" : \"Rua do jao\",\n\t\"numero\" : \"100\",\n\t\"complemento\" : \"Apto 302\",\n\t\"bairro\":\"Freguesia do O\",\n\t\"cep\" : \"38746928\",\n\t\"cidadeId\" : 1\n}",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODUxNDB9.bsuMbfjiKbQglZtTf19-kKxL1QT-fs7E4SFBTrDd3w5yrEYb686pMbqvMwptGTEFYeSePcaXsI1T133S81eMlA\nContent-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "91a6ca24-0f51-4e8f-b067-7eb8c08f22d4",
+					"name": "findByEmail",
+					"url": "{{BASE_URL_GCP}}/clientes/email?value=fernandoguide2014@gmail.com",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"type": "text",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODQyOTd9.1S-Tspy4BcEF1ncdXLxA3VPvuc8Rftl8d9leaBSUwsy-cpngv5mcr3rzV9K-dUDDRapx8vxJ64s9uCgXj0UWsg"
 						},
 						{
 							"key": "Content-Type",
@@ -166,36 +1407,74 @@
 					],
 					"method": "GET",
 					"pathVariableData": [],
-					"queryParams": [],
+					"queryParams": [
+						{
+							"key": "value",
+							"value": "fernandoguide2014@gmail.com",
+							"equals": true,
+							"description": null,
+							"enabled": true
+						}
+					],
 					"auth": {
-						"type": "bearer",
-						"bearer": [
-							{
-								"key": "token",
-								"value": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODIyOTA4MDd9.rFmjL5wUhAQZBxMevFkiqiWG_STd9JijB-ImBJY2GEJ5qle9ALJHwLsSQMj1Lh0GURIMQ9iebfbxdm8lOpviJw",
-								"type": "string"
-							}
-						]
+						"type": "noauth"
 					},
 					"events": null,
-					"folder": "8d5e6bae-5339-41a9-a0af-7bee5d590f00",
+					"folder": "3466a360-30cd-4c1b-8e07-55310f435828",
 					"protocolProfileBehavior": {
 						"disableBodyPruning": true
 					},
-					"currentHelper": "bearerAuth",
-					"helperAttributes": {
-						"id": "bearer",
-						"token": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODIyOTA4MDd9.rFmjL5wUhAQZBxMevFkiqiWG_STd9JijB-ImBJY2GEJ5qle9ALJHwLsSQMj1Lh0GURIMQ9iebfbxdm8lOpviJw"
-					},
-					"collectionId": "c87eb045-bee1-4047-93e5-924242598ff8",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
 					"rawModeData": "",
-					"headers": "Authorization: eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODIyOTA3MzN9.ieG7TaIfiYAO1dYZaduITVpkzlHMWPLQ-tAPmm2_oNmgt2K8C5x_UdlXtnBnb2zv3gIusuEB-yY1HC3FCR4Xyg\nContent-Type: application/json\n",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODQyOTd9.1S-Tspy4BcEF1ncdXLxA3VPvuc8Rftl8d9leaBSUwsy-cpngv5mcr3rzV9K-dUDDRapx8vxJ64s9uCgXj0UWsg\nContent-Type: application/json\n",
 					"pathVariables": {}
 				},
 				{
-					"id": "82e3bc97-d012-4d1a-8b48-fbe537dbd6cb",
-					"name": "findAll",
-					"url": "{{baseUrl}}/categorias",
+					"id": "a5046a3f-32c6-41d2-9dcd-ae4e6608fc95",
+					"name": "Esqueceu a senha",
+					"url": "{{BASE_URL_GCP}}/auth/forgot",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTgzNzk0Mzc3fQ.-98UxDUFZyfV2_7yV1oQbHwnKobmfMmlOTkf-iCI4p5b-PzP8mJdxFuDw41hmAKVcI6GaxvGzS6R3rdNLXxLrw",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "43ec1c9a-e037-4d6b-9902-71968c34f2f7",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"rawModeData": "{\r\n\t\"email\": \"usuario@gmail.com\"\r\n}\r\n\r\n\r\n\r\n\r\n",
+					"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTgzNzk0Mzc3fQ.-98UxDUFZyfV2_7yV1oQbHwnKobmfMmlOTkf-iCI4p5b-PzP8mJdxFuDw41hmAKVcI6GaxvGzS6R3rdNLXxLrw\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "b2f257ea-4cda-4ea8-b2f2-65b0d4c9d939",
+					"name": "findByID",
+					"url": "{{BASE_URL_GCP}}/categorias/1",
 					"description": null,
 					"data": null,
 					"dataOptions": null,
@@ -204,19 +1483,21 @@
 					"method": "GET",
 					"pathVariableData": [],
 					"queryParams": [],
-					"auth": null,
+					"auth": {
+						"type": "noauth"
+					},
 					"events": null,
-					"folder": "846e13a4-c7b1-498e-8e02-e33bb82a31c1",
+					"folder": "1ee894ea-8d11-43fd-9652-b122872d1f29",
 					"currentHelper": null,
 					"helperAttributes": null,
-					"collectionId": "c87eb045-bee1-4047-93e5-924242598ff8",
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
 					"headers": "",
 					"pathVariables": {}
 				},
 				{
-					"id": "bad8ecdc-fe1d-4952-a801-d773b7b1d4df",
-					"name": "buscarCep",
-					"url": "http://api.postmon.com.br/v1/cep/02805050",
+					"id": "c3b90019-f466-490f-af65-b923f037343c",
+					"name": "findByID",
+					"url": "{{BASE_URL_GCP}}/produtos/1",
 					"description": "",
 					"data": null,
 					"dataOptions": null,
@@ -226,19 +1507,40 @@
 					"pathVariableData": [],
 					"queryParams": [],
 					"auth": null,
-					"events": [],
-					"folder": "eef941e3-dcd6-4ece-8123-e5f4d84385f3",
+					"events": null,
+					"folder": "32f06c29-f213-46ab-832a-97e3faf703f0",
 					"currentHelper": null,
 					"helperAttributes": null,
-					"collectionId": "c87eb045-bee1-4047-93e5-924242598ff8",
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
 					"headers": "",
 					"pathVariables": {}
 				},
 				{
-					"id": "d648467b-7325-4c97-bd89-502c619fed19",
-					"name": "Login",
-					"url": "{{baseUrl}}/login",
+					"id": "c64b1920-b4a4-47f1-a8f2-6d57a17787aa",
+					"name": "findAll",
+					"url": "{{BASE_URL_GCP}}/categorias",
 					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "1ee894ea-8d11-43fd-9652-b122872d1f29",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "cb2c6da3-e8fb-44db-8490-93fe8a27641e",
+					"name": "createCategoria",
+					"url": "{{BASE_URL_GCP}}/categorias",
+					"description": "",
 					"data": [],
 					"dataOptions": {
 						"raw": {
@@ -252,6 +1554,12 @@
 							"name": "Content-Type",
 							"value": "application/json",
 							"type": "text"
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
+							"type": "text",
+							"enabled": true
 						}
 					],
 					"method": "POST",
@@ -259,121 +1567,420 @@
 					"queryParams": [],
 					"auth": null,
 					"events": null,
-					"folder": "0e7ff556-420c-4b3a-a41a-0003c10b2b33",
+					"folder": "1ee894ea-8d11-43fd-9652-b122872d1f29",
 					"currentHelper": null,
 					"helperAttributes": null,
-					"collectionId": "c87eb045-bee1-4047-93e5-924242598ff8",
-					"rawModeData": "{\r\n\t\"email\": \"admin@gmail.com\",\r\n\t\"senha\": \"admin\"\r\n}\r\n\r\n\r\n\r\n\r\n",
-					"headers": "Content-Type: application/json\n",
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"rawModeData": "{\r\n        \"nome\": \"Cadeiras Gamer\"\r\n}",
+					"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "d59922ba-8963-4f97-989a-ee738f8e6f63",
+					"name": "uploadIMG",
+					"url": "{{BASE_URL_GCP}}/clientes/picture",
+					"description": null,
+					"data": [
+						{
+							"key": "file",
+							"value": "/C:/Users/Guide/Pictures/sou-foda-600x367.jpg",
+							"description": "",
+							"type": "file",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "params",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1OTQ1NDMwfQ.Kt8Ptf5R90up0qde3S-eo_2Ner-R6DJY6l7MIZR81uKJEEXMYR_MGIYo0_U9H8_FQ6ktUqJe0gi3G28OJFFaTg",
+							"description": null,
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "3466a360-30cd-4c1b-8e07-55310f435828",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "d9511dc9-2003-4fe9-bdfe-3585f2e9ea8b",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1OTQ1NDMwfQ.Kt8Ptf5R90up0qde3S-eo_2Ner-R6DJY6l7MIZR81uKJEEXMYR_MGIYo0_U9H8_FQ6ktUqJe0gi3G28OJFFaTg\n",
 					"pathVariables": {}
 				}
 			]
 		},
 		{
-			"id": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-			"name": "Aula Yoshi",
-			"description": "",
+			"id": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+			"name": "Eletronic Store LOCAL",
+			"description": null,
 			"auth": null,
-			"events": null,
+			"events": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "eb142748-80d0-48d4-8ad6-91b749c4dc0d",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "39b86686-30c6-479d-980b-9b5f58a55d13",
+						"type": "text/javascript",
+						"exec": [
+							""
+						]
+					}
+				}
+			],
 			"variables": [],
 			"order": [],
 			"folders_order": [
-				"7be5ebec-5c66-4445-b892-6cc79821b68c",
-				"e56469df-65f0-4699-924b-12716c58de9c",
-				"d9b15250-427f-42ac-ab42-bec747791bcb"
+				"7998f327-80d5-400d-b143-fecdd797ed19",
+				"d7ed9010-32f2-452a-baaf-a73202b5c1c5",
+				"79a3ccf4-c724-49c0-816a-01a1ab604a3c",
+				"810638a1-6239-483b-8274-8bb2acb2c44c",
+				"ccbbe8a9-09f1-4a9b-b797-e59e3724083b"
 			],
 			"protocolProfileBehavior": {},
 			"folders": [
 				{
-					"id": "7be5ebec-5c66-4445-b892-6cc79821b68c",
-					"name": "CarrinhoCompras",
+					"id": "ccbbe8a9-09f1-4a9b-b797-e59e3724083b",
+					"name": "API-EXTERNA-CEP",
 					"description": "",
 					"auth": null,
 					"events": null,
-					"collection": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
+					"collection": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
 					"folder": null,
 					"order": [
-						"bb6b92c5-5edd-4ddc-bc5d-b4ab19571d41",
-						"51f096b0-9dae-4978-80ba-8d8fa5dee91c",
-						"ef967c41-3d6b-4bb9-b955-7f4c647959ba"
+						"078b5a11-dc0c-4f7c-be2f-43a00d998e7b"
 					],
 					"folders_order": [],
 					"protocolProfileBehavior": {},
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-					"folderId": "7be5ebec-5c66-4445-b892-6cc79821b68c"
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"folderId": "ccbbe8a9-09f1-4a9b-b797-e59e3724083b"
 				},
 				{
-					"id": "e56469df-65f0-4699-924b-12716c58de9c",
-					"name": "Salas",
-					"description": "",
+					"id": "7998f327-80d5-400d-b143-fecdd797ed19",
+					"name": "Auth LOCAL",
+					"description": null,
 					"auth": null,
-					"events": null,
-					"collection": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "fc6b5d4a-bf5f-4dfe-9423-f166974e92fa",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "986a26d6-678e-4ec5-a394-608312725bb3",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
 					"folder": null,
 					"order": [
-						"f3cbb252-778b-442b-977f-bd9390dd30c2",
-						"403621bf-0a51-477b-bced-7003d832c1d1",
-						"19951e4b-5e77-45e0-946f-8ead83196d67",
-						"24442996-d73f-4579-a486-d0de06b3025d"
+						"793bf358-49d4-4d79-bc91-53cce5f7911d",
+						"c892def1-d6e2-43f9-9c7e-1b13223b4a4b"
 					],
 					"folders_order": [],
 					"protocolProfileBehavior": {},
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-					"folderId": "e56469df-65f0-4699-924b-12716c58de9c"
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"folderId": "7998f327-80d5-400d-b143-fecdd797ed19"
 				},
 				{
-					"id": "d9b15250-427f-42ac-ab42-bec747791bcb",
-					"name": "controle-sala",
-					"description": "",
+					"id": "79a3ccf4-c724-49c0-816a-01a1ab604a3c",
+					"name": "Categorias LOCAL",
+					"description": null,
 					"auth": null,
-					"events": null,
-					"collection": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "07b0b2ee-c41e-44f1-964d-4016f192c434",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "f2227e28-80f7-4ca4-9df4-cd3bd0fba8ab",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
 					"folder": null,
 					"order": [
-						"9d74896c-9284-4449-bc01-89a8a9803f53",
-						"0e49168f-0ee2-4567-9b95-1f023ae95e68"
+						"d3d71205-1615-4393-bb97-c4e409bdecd2",
+						"57a86d4f-d067-4058-b2ee-748658bf0c13",
+						"03a6e292-7af3-423d-9292-51ba9fa5e2d2",
+						"65f27e12-32bf-434c-ab09-8bd67652f7dc",
+						"6e392e31-9469-4c0c-938e-00898135b9ef"
 					],
 					"folders_order": [],
 					"protocolProfileBehavior": {},
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-					"folderId": "d9b15250-427f-42ac-ab42-bec747791bcb"
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"folderId": "79a3ccf4-c724-49c0-816a-01a1ab604a3c"
+				},
+				{
+					"id": "d7ed9010-32f2-452a-baaf-a73202b5c1c5",
+					"name": "Clientes LOCAL",
+					"description": null,
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "9e505542-793b-451a-9d3e-9d070c9bb7f7",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "93b84279-f716-4f8b-93fa-35a368522bf8",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"folder": null,
+					"order": [
+						"2cfa9bb1-39b7-4455-bad5-973d52b59a99",
+						"836c9a4f-f747-4f28-81cb-a375c8ccd696",
+						"b5c8e634-e7c9-4625-b239-abdeb4177f64",
+						"b0b382fd-880a-4993-9ec6-8b02e11ec6db",
+						"5b1ee951-ed63-4a0d-ad48-d7af4fb97af8",
+						"ea350fb4-a439-4915-9fea-4c845a5e1a00",
+						"aca2fd11-ada7-4d76-a6d6-70f640888eb9"
+					],
+					"folders_order": [],
+					"protocolProfileBehavior": {},
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"folderId": "d7ed9010-32f2-452a-baaf-a73202b5c1c5"
+				},
+				{
+					"id": "810638a1-6239-483b-8274-8bb2acb2c44c",
+					"name": "Produtos LOCAL",
+					"description": "",
+					"auth": null,
+					"events": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "3eab5a9b-a88b-4aa1-90b0-1776206879b8",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "543a18fb-79f3-417a-b938-b7678315213d",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"collection": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"folder": null,
+					"order": [
+						"bba960ff-649f-4bc0-baa3-8abe29dcf3ba",
+						"f143dec3-97c7-4276-b3aa-8da4ee0a473c"
+					],
+					"folders_order": [],
+					"protocolProfileBehavior": {},
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"folderId": "810638a1-6239-483b-8274-8bb2acb2c44c"
 				}
 			],
 			"requests": [
 				{
-					"id": "0e49168f-0ee2-4567-9b95-1f023ae95e68",
-					"name": "buscar Copy",
-					"url": "http://localhost:8080/controle-salas/criar/2B/30",
+					"id": "03a6e292-7af3-423d-9292-51ba9fa5e2d2",
+					"name": "createCategoria",
+					"url": "{{BASE_URL_LOCAL}}/categorias",
 					"description": "",
-					"data": null,
-					"dataOptions": null,
-					"dataMode": null,
-					"headerData": [],
-					"method": "POST",
-					"pathVariableData": [],
-					"queryParams": [],
-					"auth": null,
-					"events": [],
-					"folder": "d9b15250-427f-42ac-ab42-bec747791bcb",
-					"currentHelper": null,
-					"helperAttributes": null,
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-					"headers": "",
-					"pathVariables": {}
-				},
-				{
-					"id": "19951e4b-5e77-45e0-946f-8ead83196d67",
-					"name": "cadastrarSala",
-					"url": "http://localhost:8080/sala/cadastrar/2B/50",
-					"description": "",
-					"data": null,
+					"data": [],
 					"dataOptions": {
 						"raw": {
 							"language": "json"
 						}
 					},
-					"dataMode": null,
+					"dataMode": "raw",
 					"headerData": [
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"type": "text"
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "79a3ccf4-c724-49c0-816a-01a1ab604a3c",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"rawModeData": "{\r\n        \"nome\": \"Cadeiras Gamer\"\r\n}",
+					"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "078b5a11-dc0c-4f7c-be2f-43a00d998e7b",
+					"name": "buscarCep",
+					"url": "http://api.postmon.com.br/v1/cep/02805050",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "ccbbe8a9-09f1-4a9b-b797-e59e3724083b",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "2cfa9bb1-39b7-4455-bad5-973d52b59a99",
+					"name": "findAll",
+					"url": "{{BASE_URL_LOCAL}}/clientes",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1ODYyMjAwfQ.-hhutuXVZLOIGbVBvLOsCGVdbhTAMEa7ALyIZzRnZ3bkWzfcYsVkbgG-CT6WbvmyteHS9szVSichKObSwUkuWQ",
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "noauth"
+					},
+					"events": null,
+					"folder": "d7ed9010-32f2-452a-baaf-a73202b5c1c5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"rawModeData": "",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1ODYyMjAwfQ.-hhutuXVZLOIGbVBvLOsCGVdbhTAMEa7ALyIZzRnZ3bkWzfcYsVkbgG-CT6WbvmyteHS9szVSichKObSwUkuWQ\nContent-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "57a86d4f-d067-4058-b2ee-748658bf0c13",
+					"name": "findByID",
+					"url": "{{BASE_URL_LOCAL}}/categorias/1",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "noauth"
+					},
+					"events": null,
+					"folder": "79a3ccf4-c724-49c0-816a-01a1ab604a3c",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "5b1ee951-ed63-4a0d-ad48-d7af4fb97af8",
+					"name": "insertCliente",
+					"url": "{{BASE_URL_LOCAL}}/clientes",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"params": {},
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"description": null,
+							"enabled": true,
+							"key": "Authorization",
+							"type": "text",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODQyOTd9.1S-Tspy4BcEF1ncdXLxA3VPvuc8Rftl8d9leaBSUwsy-cpngv5mcr3rzV9K-dUDDRapx8vxJ64s9uCgXj0UWsg"
+						},
 						{
 							"key": "Content-Type",
 							"name": "Content-Type",
@@ -384,120 +1991,410 @@
 					],
 					"method": "POST",
 					"pathVariableData": [],
-					"queryParams": [
-						{
-							"key": "nome",
-							"value": "aaaa",
-							"description": "",
-							"enabled": false
-						},
-						{
-							"key": "capacidade",
-							"value": "123",
-							"description": "",
-							"enabled": false
-						}
-					],
+					"queryParams": [],
 					"auth": null,
-					"events": [],
-					"folder": "e56469df-65f0-4699-924b-12716c58de9c",
+					"events": null,
+					"folder": "d7ed9010-32f2-452a-baaf-a73202b5c1c5",
 					"currentHelper": null,
 					"helperAttributes": null,
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-					"headers": "Content-Type: application/json\n",
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"rawModeData": "{\n\t\"nome\" : \"João Vinicius\",\n\t\"email\" : \"joaov@gmail.com\",\n\t\"senha\":\"123\",\n\t\"cpfOuCnpj\" : \"39044683756\",\n\t\"tipo\" : 1,\n\t\"telefone1\" : \"997723874\",\n\t\"telefone2\" : \"32547698\",\n\t\"logradouro\" : \"Rua do jao\",\n\t\"numero\" : \"100\",\n\t\"complemento\" : \"Apto 302\",\n\t\"bairro\":\"Freguesia do O\",\n\t\"cep\" : \"38746928\",\n\t\"cidadeId\" : 2\n}",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODQyOTd9.1S-Tspy4BcEF1ncdXLxA3VPvuc8Rftl8d9leaBSUwsy-cpngv5mcr3rzV9K-dUDDRapx8vxJ64s9uCgXj0UWsg\nContent-Type: application/json\n",
 					"pathVariables": {}
 				},
 				{
-					"id": "24442996-d73f-4579-a486-d0de06b3025d",
-					"name": "atualizarSala",
-					"url": "http://localhost:8080/sala/cadastrar/2B/60",
+					"id": "65f27e12-32bf-434c-ab09-8bd67652f7dc",
+					"name": "editCategoria",
+					"url": "{{BASE_URL_LOCAL}}/categorias/9",
 					"description": "",
-					"data": null,
+					"data": [],
 					"dataOptions": {
 						"raw": {
 							"language": "json"
 						}
 					},
-					"dataMode": null,
+					"dataMode": "raw",
 					"headerData": [
 						{
 							"key": "Content-Type",
 							"name": "Content-Type",
 							"value": "application/json",
-							"description": "",
+							"type": "text"
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "PUT",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "79a3ccf4-c724-49c0-816a-01a1ab604a3c",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"rawModeData": "{\r\n        \"nome\": \"Futebol 2\"\r\n}",
+					"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "6e392e31-9469-4c0c-938e-00898135b9ef",
+					"name": "deleteCategoria",
+					"url": "{{BASE_URL_LOCAL}}/categorias/9",
+					"description": "",
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "DELETE",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "noauth"
+					},
+					"events": null,
+					"folder": "79a3ccf4-c724-49c0-816a-01a1ab604a3c",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "793bf358-49d4-4d79-bc91-53cce5f7911d",
+					"name": "Login",
+					"url": "{{BASE_URL_LOCAL}}/login",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "7998f327-80d5-400d-b143-fecdd797ed19",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"rawModeData": "{\n\t\"email\":\"eletronicstore2020@gmail.com\",\n\t\"senha\":\"admin\"\n}\n\n\n\n\n",
+					"headers": "Content-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "836c9a4f-f747-4f28-81cb-a375c8ccd696",
+					"name": "findByID",
+					"url": "{{BASE_URL_LOCAL}}/clientes/1",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"type": "text",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1ODYyMjAwfQ.-hhutuXVZLOIGbVBvLOsCGVdbhTAMEa7ALyIZzRnZ3bkWzfcYsVkbgG-CT6WbvmyteHS9szVSichKObSwUkuWQ",
+							"enabled": true
+						},
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json",
+							"enabled": false
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": {
+						"type": "noauth"
+					},
+					"events": null,
+					"folder": "d7ed9010-32f2-452a-baaf-a73202b5c1c5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"rawModeData": "",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1ODYyMjAwfQ.-hhutuXVZLOIGbVBvLOsCGVdbhTAMEa7ALyIZzRnZ3bkWzfcYsVkbgG-CT6WbvmyteHS9szVSichKObSwUkuWQ\n//Content-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "aca2fd11-ada7-4d76-a6d6-70f640888eb9",
+					"name": "editCliente",
+					"url": "{{BASE_URL_LOCAL}}/clientes/3",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODUxNDB9.bsuMbfjiKbQglZtTf19-kKxL1QT-fs7E4SFBTrDd3w5yrEYb686pMbqvMwptGTEFYeSePcaXsI1T133S81eMlA",
+							"description": null,
+							"type": "text",
+							"enabled": true
+						},
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"value": "application/json",
+							"description": null,
 							"type": "text"
 						}
 					],
 					"method": "PUT",
 					"pathVariableData": [],
-					"queryParams": [
-						{
-							"key": "nome",
-							"value": "aaaa",
-							"description": "",
-							"enabled": false
-						},
-						{
-							"key": "capacidade",
-							"value": "123",
-							"description": "",
-							"enabled": false
-						}
-					],
+					"queryParams": [],
 					"auth": null,
-					"events": [],
-					"folder": "e56469df-65f0-4699-924b-12716c58de9c",
+					"events": null,
+					"folder": "d7ed9010-32f2-452a-baaf-a73202b5c1c5",
 					"currentHelper": null,
 					"helperAttributes": null,
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-					"headers": "Content-Type: application/json\n",
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"rawModeData": "{\n\t\"nome\" : \"João \",\n\t\"email\" : \"joaov@gmail.com\",\n\t\"telefone1\" : \"997723874\",\n\t\"telefone2\" : \"32547698\",\n\t\"logradouro\" : \"Rua do jao\",\n\t\"numero\" : \"100\",\n\t\"complemento\" : \"Apto 302\",\n\t\"bairro\":\"Freguesia do O\",\n\t\"cep\" : \"38746928\",\n\t\"cidadeId\" : 1\n}",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODUxNDB9.bsuMbfjiKbQglZtTf19-kKxL1QT-fs7E4SFBTrDd3w5yrEYb686pMbqvMwptGTEFYeSePcaXsI1T133S81eMlA\nContent-Type: application/json\n",
 					"pathVariables": {}
 				},
 				{
-					"id": "403621bf-0a51-477b-bced-7003d832c1d1",
-					"name": "excluirSala",
-					"url": "http://localhost:8080/sala/excluir",
+					"id": "b0b382fd-880a-4993-9ec6-8b02e11ec6db",
+					"name": "uploadIMG",
+					"url": "{{BASE_URL_LOCAL}}/clientes/picture",
+					"description": null,
+					"data": [
+						{
+							"key": "file",
+							"value": "/C:/Users/Guide/Pictures/sou-foda-600x367.jpg",
+							"description": "",
+							"type": "file",
+							"enabled": true
+						}
+					],
+					"dataOptions": {
+						"params": {}
+					},
+					"dataMode": "params",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1OTM3OTE1fQ.oQ5IVpGj22IJNl5zc_0zvnl2QBWP5AklflGx7DN7827ULg-cff6iWQ1uCguxOzF-ycgnSoXceM942E9eQ6frjg",
+							"description": null,
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "d7ed9010-32f2-452a-baaf-a73202b5c1c5",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1OTM3OTE1fQ.oQ5IVpGj22IJNl5zc_0zvnl2QBWP5AklflGx7DN7827ULg-cff6iWQ1uCguxOzF-ycgnSoXceM942E9eQ6frjg\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "b5c8e634-e7c9-4625-b239-abdeb4177f64",
+					"name": "findByEmail",
+					"url": "{{BASE_URL_LOCAL}}/clientes/email?value=fernandoguide2014@gmail.com",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Authorization",
+							"type": "text",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1ODYyMjAwfQ.-hhutuXVZLOIGbVBvLOsCGVdbhTAMEa7ALyIZzRnZ3bkWzfcYsVkbgG-CT6WbvmyteHS9szVSichKObSwUkuWQ"
+						},
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						}
+					],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [
+						{
+							"key": "value",
+							"value": "fernandoguide2014@gmail.com",
+							"equals": true,
+							"description": null,
+							"enabled": true
+						}
+					],
+					"auth": {
+						"type": "noauth"
+					},
+					"events": null,
+					"folder": "d7ed9010-32f2-452a-baaf-a73202b5c1c5",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"rawModeData": "",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1ODYyMjAwfQ.-hhutuXVZLOIGbVBvLOsCGVdbhTAMEa7ALyIZzRnZ3bkWzfcYsVkbgG-CT6WbvmyteHS9szVSichKObSwUkuWQ\nContent-Type: application/json\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "bba960ff-649f-4bc0-baa3-8abe29dcf3ba",
+					"name": "findByID",
+					"url": "{{BASE_URL_LOCAL}}/produtos/1",
 					"description": "",
 					"data": null,
 					"dataOptions": null,
 					"dataMode": null,
 					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "810638a1-6239-483b-8274-8bb2acb2c44c",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "c892def1-d6e2-43f9-9c7e-1b13223b4a4b",
+					"name": "Esqueceu a senha",
+					"url": "{{BASE_URL_LOCAL}}/auth/forgot",
+					"description": null,
+					"data": [],
+					"dataOptions": {
+						"raw": {
+							"language": "json"
+						}
+					},
+					"dataMode": "raw",
+					"headerData": [
+						{
+							"key": "Content-Type",
+							"name": "Content-Type",
+							"type": "text",
+							"value": "application/json"
+						},
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1ODYyMjAwfQ.-hhutuXVZLOIGbVBvLOsCGVdbhTAMEa7ALyIZzRnZ3bkWzfcYsVkbgG-CT6WbvmyteHS9szVSichKObSwUkuWQ",
+							"description": "",
+							"type": "text",
+							"enabled": true
+						}
+					],
+					"method": "POST",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "7998f327-80d5-400d-b143-fecdd797ed19",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"rawModeData": "{\r\n\t\"email\": \"usuario@gmail.com\"\r\n}\r\n\r\n\r\n\r\n\r\n",
+					"headers": "Content-Type: application/json\nAuthorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAZ21haWwuY29tIiwiZXhwIjoxNTg1ODYyMjAwfQ.-hhutuXVZLOIGbVBvLOsCGVdbhTAMEa7ALyIZzRnZ3bkWzfcYsVkbgG-CT6WbvmyteHS9szVSichKObSwUkuWQ\n",
+					"pathVariables": {}
+				},
+				{
+					"id": "d3d71205-1615-4393-bb97-c4e409bdecd2",
+					"name": "findAll",
+					"url": "{{BASE_URL_LOCAL}}/categorias",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [],
+					"method": "GET",
+					"pathVariableData": [],
+					"queryParams": [],
+					"auth": null,
+					"events": null,
+					"folder": "79a3ccf4-c724-49c0-816a-01a1ab604a3c",
+					"currentHelper": null,
+					"helperAttributes": null,
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"headers": "",
+					"pathVariables": {}
+				},
+				{
+					"id": "ea350fb4-a439-4915-9fea-4c845a5e1a00",
+					"name": "deleteCliente",
+					"url": "{{BASE_URL_LOCAL}}/clientes/1",
+					"description": null,
+					"data": null,
+					"dataOptions": null,
+					"dataMode": null,
+					"headerData": [
+						{
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODUxNDB9.bsuMbfjiKbQglZtTf19-kKxL1QT-fs7E4SFBTrDd3w5yrEYb686pMbqvMwptGTEFYeSePcaXsI1T133S81eMlA",
+							"description": null,
+							"type": "text",
+							"enabled": true
+						}
+					],
 					"method": "DELETE",
 					"pathVariableData": [],
 					"queryParams": [],
 					"auth": null,
-					"events": [],
-					"folder": "e56469df-65f0-4699-924b-12716c58de9c",
-					"currentHelper": null,
-					"helperAttributes": null,
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-					"headers": "",
-					"pathVariables": {}
-				},
-				{
-					"id": "51f096b0-9dae-4978-80ba-8d8fa5dee91c",
-					"name": "itensCarrinho",
-					"url": "http://localhost:8080/carrinho/comprar/abc/2/3",
-					"description": "",
-					"data": null,
-					"dataOptions": null,
-					"dataMode": null,
-					"headerData": null,
-					"method": "GET",
-					"pathVariableData": [],
-					"queryParams": [],
-					"auth": null,
 					"events": null,
-					"folder": "7be5ebec-5c66-4445-b892-6cc79821b68c",
+					"folder": "d7ed9010-32f2-452a-baaf-a73202b5c1c5",
 					"currentHelper": null,
 					"helperAttributes": null,
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
+					"headers": "Authorization: Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODM2ODUxNDB9.bsuMbfjiKbQglZtTf19-kKxL1QT-fs7E4SFBTrDd3w5yrEYb686pMbqvMwptGTEFYeSePcaXsI1T133S81eMlA\n",
 					"pathVariables": {}
 				},
 				{
-					"id": "9d74896c-9284-4449-bc01-89a8a9803f53",
-					"name": "buscar",
-					"url": "http://localhost:8080/controle-salas",
+					"id": "f143dec3-97c7-4276-b3aa-8da4ee0a473c",
+					"name": "findPage",
+					"url": "{{BASE_URL_GCP}}/produtos?nome=Computador&categoria=Informática&page=1",
 					"description": "",
 					"data": null,
 					"dataOptions": null,
@@ -505,74 +2402,35 @@
 					"headerData": [],
 					"method": "GET",
 					"pathVariableData": [],
-					"queryParams": [],
-					"auth": null,
-					"events": [],
-					"folder": "d9b15250-427f-42ac-ab42-bec747791bcb",
-					"currentHelper": null,
-					"helperAttributes": null,
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-					"headers": "",
-					"pathVariables": {}
-				},
-				{
-					"id": "bb6b92c5-5edd-4ddc-bc5d-b4ab19571d41",
-					"name": "carrinhoTotal",
-					"url": "http://localhost:8080/carrinho/total",
-					"description": "",
-					"data": null,
-					"dataOptions": null,
-					"dataMode": null,
-					"headerData": null,
-					"method": "GET",
-					"pathVariableData": [],
-					"queryParams": [],
-					"auth": null,
-					"events": null,
-					"folder": "7be5ebec-5c66-4445-b892-6cc79821b68c",
-					"currentHelper": null,
-					"helperAttributes": null,
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-					"pathVariables": {}
-				},
-				{
-					"id": "ef967c41-3d6b-4bb9-b955-7f4c647959ba",
-					"name": "listacarrinho",
-					"url": "http://localhost:8080/carrinho",
-					"description": "",
-					"data": null,
-					"dataOptions": null,
-					"dataMode": null,
-					"headerData": null,
-					"method": "GET",
-					"pathVariableData": [],
-					"queryParams": [],
+					"queryParams": [
+						{
+							"key": "nome",
+							"value": "Computador",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "categoria",
+							"value": "Informática",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						},
+						{
+							"key": "page",
+							"value": "1",
+							"equals": true,
+							"description": "",
+							"enabled": true
+						}
+					],
 					"auth": null,
 					"events": null,
-					"folder": "7be5ebec-5c66-4445-b892-6cc79821b68c",
+					"folder": "810638a1-6239-483b-8274-8bb2acb2c44c",
 					"currentHelper": null,
 					"helperAttributes": null,
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
-					"pathVariables": {}
-				},
-				{
-					"id": "f3cbb252-778b-442b-977f-bd9390dd30c2",
-					"name": "Salas",
-					"url": "http://localhost:8080/sala",
-					"description": "",
-					"data": null,
-					"dataOptions": null,
-					"dataMode": null,
-					"headerData": [],
-					"method": "GET",
-					"pathVariableData": [],
-					"queryParams": [],
-					"auth": null,
-					"events": [],
-					"folder": "e56469df-65f0-4699-924b-12716c58de9c",
-					"currentHelper": null,
-					"helperAttributes": null,
-					"collectionId": "ffddca09-cc96-44f5-b509-71c45c66dfc1",
+					"collectionId": "fa460536-53b3-4126-a4a9-82bae5a8ecfc",
 					"headers": "",
 					"pathVariables": {}
 				}
@@ -581,7 +2439,206 @@
 	],
 	"environments": [
 		{
-			"id": "2c6b5efd-73e3-4194-999f-1988c4209cc3",
+			"id": "0673f3b3-c08e-4445-8985-bd7d4c2fb645",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "0d60cd40-85cf-4cac-b024-f827ae7b2b7d",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "284fc584-fdd7-4bc3-9ca4-c45c3d42ff1c",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "2cdf6937-03be-4deb-be5f-73d3126203f6",
+			"name": "Java local",
+			"values": [
+				{
+					"key": "baseUrl",
+					"value": "http://localhost:8080",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "315e2b45-f863-47e4-a761-50455108a371",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "4aa5f6c9-91dc-4231-b802-c702fc35e6f2",
+			"name": "Java local",
+			"values": [
+				{
+					"key": "baseUrl",
+					"value": "http://",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "5a671a6a-cad8-4c4b-9be9-b3bf865309be",
+			"name": "globals",
+			"values": [
+				{
+					"key": "BASE_URL_GCP",
+					"value": "https://eletronic-store-dot-bandtec.appspot.com/",
+					"enabled": true
+				},
+				{
+					"key": "BASE_URL_LOCAL",
+					"value": "http://localhost:8080",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "5b1db426-9e85-4ab8-b6a7-ce7f01d7a825",
+			"name": "Java local",
+			"values": [
+				{
+					"key": "baseUrl",
+					"value": "http://",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "6a0c825a-ac3d-435e-a2ba-ec9aa07f0191",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "6aa18ff0-5909-49c2-a689-ed3650b112ad",
+			"name": "SSO",
+			"values": [
+				{
+					"key": "URL_BASE_SSO",
+					"value": "https://login.des.caixa/",
+					"enabled": true
+				},
+				{
+					"key": "URL_BASE_GED",
+					"value": "http://siecm.des.caixa/siecm-web/ECM/",
+					"enabled": true
+				},
+				{
+					"key": "LOCAL_BASE_URL",
+					"value": "http://localhost:8080/",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "746cde83-1acb-4d59-a947-39d50ee3afcf",
+			"name": "Java local",
+			"values": [
+				{
+					"key": "baseUrl",
+					"value": "http://",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "75bb059b-8469-4dd7-a112-f1d68339e543",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "7ef48b3e-94bc-4b1b-9970-117952fdd31f",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "85ea8554-2cf3-402e-b468-6794e77915f9",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "8f36498f-8cda-4c5c-9d75-12df30e23311",
+			"name": "globals",
+			"values": [
+				{
+					"key": "BASE_URL_GCP",
+					"value": "https://eletronic-store-dot-bandtec.appspot.com/",
+					"enabled": true
+				},
+				{
+					"key": "BASE_URL_LOCAL",
+					"value": "http://localhost:8080",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "9855c51f-7cf9-467b-b6ff-80ef90240fed",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "a655b99a-dfc2-4671-9eb0-0a26f4c47917",
+			"name": "globals",
+			"values": [
+				{
+					"key": "BASE_URL_GCP",
+					"value": "https://eletronic-store-dot-bandtec.appspot.com/",
+					"enabled": true
+				},
+				{
+					"key": "BASE_URL_LOCAL",
+					"value": "http://localhost:8080",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "ba667f5e-41fd-440d-ba76-f6d24e74b788",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "d3474a5b-a88e-4ab0-927f-deae1e86c979",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "d999fd3d-f05e-4331-8e0b-2e498bfdee9e",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "dae798f8-bd6c-4b54-a951-c2bee5718ebb",
+			"name": "SSO",
+			"values": [
+				{
+					"key": "URL_BASE_SSO",
+					"value": "https://login.des.caixa/",
+					"enabled": true
+				},
+				{
+					"key": "URL_BASE_GED",
+					"value": "http://siecm.des.caixa/siecm-web/ECM/",
+					"enabled": true
+				},
+				{
+					"key": "LOCAL_BASE_URL",
+					"value": "http://localhost:8080/",
+					"enabled": true
+				}
+			]
+		},
+		{
+			"id": "e963604b-1be4-4fa5-9561-25912943e8a1",
+			"name": "My Workspace - globals",
+			"values": []
+		},
+		{
+			"id": "522eedaf-d786-430b-b887-c80573d4d7ce",
 			"name": "My Workspace - globals",
 			"values": []
 		}
